@@ -1,4 +1,3 @@
-
 interface MainContentProps {
   title: string;
   place: string;
@@ -17,7 +16,7 @@ function MainContent({
     <>
       {FavPlaces.map((FavPlace, index) => (
         <div key={index} className="favPlace">
-          <img className="img"src={FavPlace.image} alt={FavPlace.place} />
+          <img className="img" src={FavPlace.image} alt={FavPlace.place} />
           <h2 className="h2">{FavPlace.place}</h2>
           <h3 className="h3">
             {FavPlace.country}(
@@ -26,7 +25,7 @@ function MainContent({
             </a>
             )
           </h3>
-          <p className="p" >{FavPlace.explaination}</p>
+          <p className="p">{FavPlace.explaination}</p>
         </div>
       ))}
     </>

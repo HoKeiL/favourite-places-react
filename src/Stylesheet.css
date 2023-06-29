@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
-html{
-    width:80%;
-    margin-left: auto;
-margin-right: auto;
-font-family: "Open Sans", sans-serif;
+html {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Open Sans", sans-serif;
 }
 
 .top,
@@ -18,20 +18,22 @@ font-family: "Open Sans", sans-serif;
 }
 
 .favPlace {
-    margin-top: 10px;
-    padding: 20px;
-    background: rgb(219, 219, 219);
-    border-radius: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  background: rgb(219, 219, 219);
+  border-radius: 10px;
 }
 
-.img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
 }
 
-.h2,.h3,.p{
-    text-align: center;
-    color: rgb(77, 47, 11);
+.h2,
+.h3,
+.p {
+  text-align: center;
+  color: rgb(77, 47, 11);
 }
