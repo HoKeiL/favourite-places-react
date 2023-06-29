@@ -1,9 +1,9 @@
-function PageHeader(heading:string):JSX.Element {
-    return (
-        <header>
-            heading = {"My Favourite Places"}
-        </header>
-    );
+function PageHeader(): JSX.Element {
+  return (
+    <header>
+      <h1>My Favourite Places</h1>
+    </header>
+  );
 }
 
 export default PageHeader;
