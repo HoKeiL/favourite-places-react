@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
-.top .bottom {
+.top,
+.bottom {
   background: rgb(155, 210, 232);
   text-align: center;
   font-family: "Open Sans", sans-serif;
