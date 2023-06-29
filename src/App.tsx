@@ -1,11 +1,10 @@
-import { greet } from "./utils/greet";
+
 import PageHeader from "./components/PageHeader";
-import "./Stylesheet"
+import "./Stylesheet.css"
 function App(): JSX.Element {
   return (
    
     <div className ="top">
-      <h1>{greet("World")}</h1>
       <PageHeader />
     </div>
   
