@@ -5,7 +5,15 @@
   text-align: center;
   font-family: "Open Sans", sans-serif;
   color: rgb(107, 75, 37);
-  margin-top: 50px;
+  margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.main {
+    background: rgb(225, 222, 222);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
 }
