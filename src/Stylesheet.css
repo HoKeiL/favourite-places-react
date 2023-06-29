@@ -1,19 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+html{
+    width:80%;
+    margin-left: auto;
+margin-right: auto;
+font-family: "Open Sans", sans-serif;
+}
+
 .top,
 .bottom {
   background: rgb(155, 210, 232);
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  border-radius: 10px;
   color: rgb(107, 75, 37);
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.main {
-    background: rgb(225, 222, 222);
+.favPlace {
+    margin-top: 10px;
+    padding: 20px;
+    background: rgb(219, 219, 219);
+    border-radius: 10px;
+}
+
+.img{
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    border-radius: 8px;
+}
 
+.h2,.h3,.p{
+    text-align: center;
+    color: rgb(77, 47, 11);
 }
