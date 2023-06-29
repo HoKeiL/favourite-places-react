@@ -1,8 +1,8 @@
 function PageFooter(): JSX.Element {
   return (
-    <header>
+    <footer>
       <h1>Footer stuff here</h1>
-    </header>
+    </footer>
   );
 }
 
