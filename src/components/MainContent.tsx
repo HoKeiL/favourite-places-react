@@ -1,3 +1,6 @@
+import "./MainContent.css";
+
+
 interface MainContentProps {
   title: string;
   place: string;
@@ -7,14 +10,19 @@ interface MainContentProps {
   explaination: string;
 }
 
-function MainContent({ FavPlaces }: { FavPlaces: MainContentProps[] }): JSX.Element {
+function MainContent({
+  FavPlaces,
+}: {
+  FavPlaces: MainContentProps[];
+}): JSX.Element {
   return (
     <>
       {FavPlaces.map((FavPlace, index) => (
         <div key={index}>
           <img src={FavPlace.image} alt={FavPlace.place} />
           <h3>{FavPlace.place}</h3>
-          <h5>FavPlaces
+          <h5>
+            FavPlaces
             {FavPlace.country}(
             <a href={FavPlace.location}>
               <small>map link</small>
