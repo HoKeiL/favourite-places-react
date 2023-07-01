@@ -1,7 +1,7 @@
 function PageFooter(): JSX.Element {
   return (
     <footer>
-      <h1>Footer stuff here</h1>
+      <h1>Made by Ho Kei Leung</h1>
     </footer>
   );
 }

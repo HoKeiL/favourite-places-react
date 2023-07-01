@@ -20,7 +20,7 @@ function MainContent({
           <h2 className="h2">{FavPlace.place}</h2>
           <h3 className="h3">
             {FavPlace.country}(
-            <a target="_blank" href={FavPlace.location}>
+            <a target="_blank" rel="noreferrer" href={FavPlace.location}>
               <small>map link</small>
             </a>
             )
