@@ -25,6 +25,17 @@ const FavPlacesArray = [
     explaination:
       "I was born in Hong Kong and lived there through my childhood, the food the scenery and the people are what makes Hong Kong great.",
   },
+  {
+    title: "My home town",
+    place: "Lisbon",
+    country: "Portugal",
+    image:
+      "./img/lisbon",
+    location:
+      "https://www.google.com/maps/place/Lisbon,+Portugal/@38.7436057,-9.2302432,12z/data=!3m1!4b1!4m6!3m5!1s0xd19331a61e4f33b:0x400ebbde49036d0!8m2!3d38.7222524!4d-9.1393366!16zL20vMDRsbGI?entry=ttu",
+    explaination:
+      "Lisbon is one of my favourite city I have visited, I love the weather there, the food and the scenery!",
+  }
 ];
 
 function App(): JSX.Element {
