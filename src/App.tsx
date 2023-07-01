@@ -29,13 +29,12 @@ const FavPlacesArray = [
     title: "My home town",
     place: "Lisbon",
     country: "Portugal",
-    image:
-      "./img/lisbon",
+    image: "https://images.unsplash.com/photo-1585208798174-6cedd86e019a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80",
     location:
       "https://www.google.com/maps/place/Lisbon,+Portugal/@38.7436057,-9.2302432,12z/data=!3m1!4b1!4m6!3m5!1s0xd19331a61e4f33b:0x400ebbde49036d0!8m2!3d38.7222524!4d-9.1393366!16zL20vMDRsbGI?entry=ttu",
     explaination:
       "Lisbon is one of my favourite city I have visited, I love the weather there, the food and the scenery!",
-  }
+  },
 ];
 
 function App(): JSX.Element {
