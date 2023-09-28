@@ -1,45 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
 html {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  color: rgb(107, 75, 37);
   font-family: "Open Sans", sans-serif;
-  background: rgb(250, 250, 244);
-  max-width: 750px;
+  background: rgb(50, 50, 50);
+  text-align: center;
 }
 
-.top,
-.bottom {
-  background: rgb(155, 210, 232);
+.top {
+  background: rgb(219, 219, 219);
   text-align: center;
-  border-radius: 10px;
-  color: rgb(107, 75, 37);
-  margin-top: 10px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0.5em;
+  width: 100vw;
+}
+.bottom {
+  background: rgb(219, 219, 219);
+  text-align: center;
+  margin-top: 1em;
+  padding: 0.5em;
+  width: 100vw;
 }
 
 .favPlace {
-  margin-top: 8px;
-  padding: 20px;
+  position: relative;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  max-width: 750px;
   background: rgb(219, 219, 219);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1em;
+  padding: 3em;
 }
-
+.favPlace::before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(-45deg, #ffffc9 0%, #aee8ff 100%);
+  filter: blur(20px);
+  transform: translate3d(0px, 20px, 0);
+  border-radius: inherit;
+}
+.favPlace::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: inherit;
+  border-radius: inherit;
+}
 .img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 8px;
+  border-radius: 0.5em;
   width: 100%;
-  height: auto;
-}
-
-.h2,
-.h3,
-.p {
-  text-align: center;
-  color: rgb(77, 47, 11);
+  height: 100%;
 }
